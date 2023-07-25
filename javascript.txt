@@ -1,0 +1,60 @@
+precedural programing paradigm -> efficiency mraye bs chal jaye
+code redudandency -> faltu ka repetetive code
+fix krne ke liye functional programming paradigm aaya 
+
+es5 functions me console.log(arguments) rehta hai by default, this bhi hota hai.
+
+tappar mara usse thappar mara wo callback hai
+
+for each ko call krne se kya hoga wo hai foreach ke andr walla fnc hr bar
+foreach mutable func hai
+
+jb bs read krna hai tb foreach
+pr jb manipulate krna hai tbn map hi use krna hai
+   map ,filter original data me changes nahi krna hai
+
+
+delete profile.username to remove key-value pair in object
+
+
+humor, communicastion skill, body language.
+   REST Operator hamesh function ke ander use hota hai
+   For variable length of parameters or arguments?
+
+   function hobbies (username, ...a){
+      console.log(a);
+   }
+
+   hobbies(1,2,4,56,67,7)
+
+
+JS syncronous langage hai, single threded lamnguage hai,
+syncronous thread  ka plus point -> ek process me us wale me delay nahi hoga, bhale nakinme hojae
+syncronous single threaded language
+
+
+eventlistener settimout async js ka part hai.
+
+exception aane ke karan 3
+   - by developer
+   - by server
+   - by user
+
+handling to prevent code fattna 😱
+
+modern compiler hai js ka JIT na interpreter hai na compiler hai
+compiler check for syntactical error
+interpreter check krta hai execution time pe sahi inputs aarahe hai ya nahi
+
+// ajax
+
+is fetch() ajax?
+
+function pp (name){
+   return new Promise(resolve, reject){
+      let name = JOHN
+
+      if(name === n ) resolve('found')
+      else reject('not found);
+   }
+}

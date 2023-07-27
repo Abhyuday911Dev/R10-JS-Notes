@@ -58,3 +58,8 @@ function pp (name){
       else reject('not found);
    }
 }
+
+
+// interview stuff //
+
+reconciliation in dom

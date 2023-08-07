@@ -15,8 +15,14 @@ const splice = () => {
 async function GetUser() {
   try {
     const res = await fetch("https://jsonplaceholder.typicode.com/users");
-    const user = await res.json();
-    console.log(user);
+    const users = await res.json();
+    // console.log(user);
+    const geoUser = users.map((user) => {
+     if(user.address.geo){
+      return user.address
+     }
+    }) 
+    console.log(geoUser)
   } catch (error) {
     console.log(error);
   }

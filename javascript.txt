@@ -63,3 +63,18 @@ function pp (name){
 // interview stuff //
 
 reconciliation in dom
+
+ek file me ek hi default export kr skte hai aour use kisi bhi nam se import krskte hai
+
+import default user;    // isko kisi bhi nam se import kr skte hai
+eg. import anyname from './script'
+
+import{admin, user} from './script'
+
+export { admin, user} from "./script"
+
+two way binding;
+usestate se krte hai
+
+
+pr two way binding kyu bs react ko bta ke chor dae

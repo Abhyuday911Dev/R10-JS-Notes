@@ -18,14 +18,20 @@ async function GetUser() {
     const users = await res.json();
     // console.log(user);
     const geoUser = users.map((user) => {
-     if(user.address.geo){
-      return user.address
-     }
-    }) 
-    console.log(geoUser)
+      if (user.address.geo) {
+        return user.address;
+      }
+    });
+    console.log(geoUser);
   } catch (error) {
     console.log(error);
   }
 }
 
-GetUser();
+// GetUser();
+
+let num = 1;
+let word =
+  num === 7 ? "one" : num === 2 ? "two" : num === 3 ? "three" : "unknown";
+
+console.log(word);

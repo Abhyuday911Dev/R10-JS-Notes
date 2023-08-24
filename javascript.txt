@@ -91,3 +91,5 @@ let word =
     : num === 3
     ? 'three'
     : 'unknown';
+
+    useEffect lifecycle method se related hai ab ye kya hai component mount unmount updation

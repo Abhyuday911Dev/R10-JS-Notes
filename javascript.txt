@@ -93,3 +93,5 @@ let word =
     : 'unknown';
 
     useEffect lifecycle method se related hai ab ye kya hai component mount unmount updation
+
+useState can take an callvack fnc wich has the value of currenty state in it
